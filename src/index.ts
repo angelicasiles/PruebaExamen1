@@ -25,21 +25,21 @@ AppDataSource.initialize().then(async () => {
     app.listen(port,()=>{console.log(`Servidor corriendo en puerto: ${port}`)});
 
     const Cliente1 = new cliente()
-    Cliente1.cedula = 703090713;
-    Cliente1.nombre = "Angélica";
-    Cliente1.apellido1 = "Siles";
+    Cliente1.cedula = 5565578646;
+    Cliente1.nombre = "Michell";
+    Cliente1.apellido1 = "Méndoza";
     Cliente1.apellido2 = "Díaz";
-    Cliente1.FechaNacimiento = "29-07-2004";
+    Cliente1.FechaNacimiento = "28-01-1998";
     Cliente1.Genero = 'F';
     Cliente1.Estado = true;
 
 
     const Cliente2= new cliente()
-    Cliente2.cedula = 111390325;
-    Cliente2.nombre = "Mileidy";
-    Cliente2.apellido1 = "Díaz";
-    Cliente2.apellido2 = "Prado";
-    Cliente2.FechaNacimiento = "20-12-1981";
+    Cliente2.cedula = 4874516686;
+    Cliente2.nombre = "Sofia";
+    Cliente2.apellido1 = "López";
+    Cliente2.apellido2 = "Morales";
+    Cliente2.FechaNacimiento = "25-10-1988";
     Cliente2.Genero = 'F';
     Cliente2.Estado = false;
 
